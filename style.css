@@ -3,18 +3,13 @@
     
 }
 
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+body{
     background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-repeat: no-repeat;
-    background-position: center center;
-     /* Reduz a opacidade para 50% */
-    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+    background-size: cover; /*faz com que a imagem cubra todo container*/
+    background-position: center;  /*centraliz a imagem*/
+    background-repeat: no-repeat;  /*evita que a imagem se repita*/
+    height: 100vh;  /*garante que o corpo tenha a altura da viewport*/
+    z-index: -1;  /*Coloca o pseudo-elemento atrás do conteúdo */
 }
 .container {
     overflow: hidden; 
