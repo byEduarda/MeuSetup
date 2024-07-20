@@ -14,16 +14,14 @@ body::before {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    opacity: 0.5; /* Reduz a opacidade para 50% */
+    background-attachment: fixed;
+    opacity: 0.4; /* Reduz a opacidade para 50% */
     z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
 }
 .container {
     overflow: hidden; 
 }
-li {
-    
-    font-size: 18pt;
-}
+
 .imagem {
     float: left;  /*Flutua a imagem para a esquerda*/
     margin-right: 60px; /*espaço entre imagem e texto*/
