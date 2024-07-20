@@ -1,5 +1,5 @@
 function redirectToLink() {
-    var linkpm = "https://www.asrock.com/mb/AMD/B550M%20Pro%20SE/index.br.asp"
+    var linkpm = "https://pt.aliexpress.com/item/1005005980078919.html"
     
     document.location.href = linkpm
 }
