@@ -44,4 +44,15 @@ main {
     margin: 14px;
     
 }
+.container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imagem {
+    
+    height: auto;
+}
+
 
