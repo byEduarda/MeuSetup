@@ -8,65 +8,82 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Meu setup</title>
 </head>
-
 <body>
 
-
-<header>
-    <h1>Setup</h1>
-    <p>Guia de peças e periféricos do Pc</p>
+<!---->
+        
+<header id="home">
+    <div class="container">
+            <button id="menu-toggle" class="menu-toggle">☰</button>
+            <div id="menu" class="menu">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Hardware</a></li>
+                    <li><a href="#services">Periféricos</a></li>
+                    <li><a href="#contact">Fale comigo</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>Bem-vindo(a) ao site!</h1>
+                <p>Este é o meu guia de setup.</p>
+            </div>
+        </div>
 </header>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">Hardware</a>
-    <a href="#">Periféricos</a>
-</nav>
+ <!---->
 
-<main>
-    
-    <div class="container">
-        <div id="placa">
-            <h2>Placa mãe: B550M Pro SE</h2>
-            <img src="imagens/placamae.png" alt="placa mae" class="imagem">
-            <ul type="circle">
-                <li>Suporta Soquete AMD AM4 Ryzen™ 3000, 3000 G-Series, 4000 G-Series, 5000 e 5000 G-Series Desktop
-                    Processors*</li>
-                <li>Suporta DDR4 4733+ (OC)</li>
-                <li>1 PCIe 4.0 x16, 1 PCIe 3.0 x16, 1 PCIe 3.0 x1</li>
-                <li>Opções de Saída de Vídeo: HDMI, DisplayPort</li>
-                <li>Realtek ALC897 Áudio HD 7.1 Canais Codec</li>
-                <li>4 SATA3, 1 Hyper M.2 (PCIe Gen4 x4),
-                    1 M.2 (PCIe Gen3 x2 & SATA3)</li>
-                <li>6 USB 3.2 Gen1 (4 traseiras, 2 Front)</li>
-                <li>Dragon 2.5G LAN</li>
-                <li>Suporta Proteção Traseira Pré-Instalada</li>
-            </ul>
-            <button onclick="redirectToLinkpm()">Onde encontrar</button>
-        </div>    
-            
-        <div id="gabinete">
-            <h2>Gabinete: Gabinete Gamer Mancer Goblin</h2>
-            <img src="imagens/gabinet.jpg" alt="gabinete" class="imagem">
-            <ul>
-                <li> Formato: m-ATX</li>
-                <li>Placa mãe suportada: Mini-ITX, m-ATX</li>
-                <li>Ventoinhas incluídas: 1 x 120 mm Branca, Sem LED</li>
-                <li> Ventoinhas suportadas: Frente: 2 x 120 mm | Superior: 2 x 120 mm | Traseira: 1 x 120 mm</li>
-                <li>Water cooler suportado: Frente: 120 ou 240 mm até 55mm</li>
-                <li>Altura máxima do cooler da CPU: 158 mm</li>
-                <li>Comprimento máximo da VGA: 330 mm</li>
-                <li>Comprimento máximo da VGA: 410 mm (Máx.)</li>
-                <li> Dimensões: 380 x 205 x 392 mm</li>
-                <li> Entradas: 1 x USB 3.0 | 2 x USB 2.0 Áudio HD</li>
-                <li>Baias: 2 x 3,5" | 2 x 2,5"</li>
-            </ul>
-        <button onclick="redirectToLinkg()">Onde encontrar</button>
-        </div>    
-    </div>    
-</main>
-<footer>
-    <P style="margin-top: 90PX;">&copy; EduardaA</P>
+
+    <section id="about">
+        <div class="container">
+            <div id="placa">
+                <h2>Placa mãe: B550M Pro SE</h2>
+                <img src="imagens/placamae.png" alt="placa mae" class="imagem">
+                <ul type="circle">
+                    <li>Suporta Soquete AMD AM4 Ryzen™ 3000, 3000 G-Series, 4000 G-Series, 5000 e 5000 G-Series Desktop
+                        Processors*</li>
+                    <li>Suporta DDR4 4733+ (OC)</li>
+                    <li>1 PCIe 4.0 x16, 1 PCIe 3.0 x16, 1 PCIe 3.0 x1</li>
+                    <li>Opções de Saída de Vídeo: HDMI, DisplayPort</li>
+                    <li>Realtek ALC897 Áudio HD 7.1 Canais Codec</li>
+                    <li>4 SATA3, 1 Hyper M.2 (PCIe Gen4 x4),
+                        1 M.2 (PCIe Gen3 x2 & SATA3)</li>
+                    <li>6 USB 3.2 Gen1 (4 traseiras, 2 Front)</li>
+                    <li>Dragon 2.5G LAN</li>
+                    <li>Suporta Proteção Traseira Pré-Instalada</li>
+                </ul>
+                <button onclick="redirectToLinkpm()">Onde encontrar</button>
+            </div>
+        
+            <div id="gabinete">
+                <h2>Gabinete: Gabinete Gamer Mancer Goblin</h2>
+                <img src="imagens/gabinet.jpg" alt="gabinete" class="imagem">
+                <ul>
+                    <li> Formato: m-ATX</li>
+                    <li>Placa mãe suportada: Mini-ITX, m-ATX</li>
+                    <li>Ventoinhas incluídas: 1 x 120 mm Branca, Sem LED</li>
+                    <li> Ventoinhas suportadas: Frente: 2 x 120 mm | Superior: 2 x 120 mm | Traseira: 1 x 120 mm</li>
+                    <li>Water cooler suportado: Frente: 120 ou 240 mm até 55mm</li>
+                    <li>Altura máxima do cooler da CPU: 158 mm</li>
+                    <li>Comprimento máximo da VGA: 330 mm</li>
+                    <li>Comprimento máximo da VGA: 410 mm (Máx.)</li>
+                    <li> Dimensões: 380 x 205 x 392 mm</li>
+                    <li> Entradas: 1 x USB 3.0 | 2 x USB 2.0 Áudio HD</li>
+                    <li>Baias: 2 x 3,5" | 2 x 2,5"</li>
+                </ul>
+            <button onclick="redirectToLinkg()">Onde encontrar</button>
+            </div>
+        </div>
+    </section>  
+
+<footer id="contact">
+    <div class="footer-content">
+        <h2>Contate-me</h2>
+        <ul class="contact-list">
+            <li><strong>Email:</strong> albuquerque.zxl@gmail.com</li>
+            <li><strong>Telefone:</strong> (21) 98090-7134</li>
+            <li><strong>GitHub:</strong><a href="https://github.com/byEduarda"></a> Veja meu repositório no GitHub</li>
+        </ul>
+    </div>
 </footer>
 </body>
 <script src="script.js"></script>

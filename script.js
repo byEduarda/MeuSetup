@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var menuToggle = document.getElementById('menu-toggle');
+    var menu = document.getElementById('menu');
+
+    menuToggle.addEventListener('click', function() {
+        menu.classList.toggle('show');
+    });
+});
+
+
 function redirectToLinkpm() {
     var linkpm = "https://pt.aliexpress.com/item/1005005980078919.html"
     
@@ -9,3 +19,4 @@ function redirectToLinkg() {
     
     document.location.href = linkpm
 }
+
