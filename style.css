@@ -6,38 +6,14 @@
 
 header {
     text-align: center;
-   background-color: rgba(127, 255, 212, 0.349);
+   background-color: rgba(0, 0, 255, 0.253);
     font-size: 1.3em;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(127, 255, 212, 0.24);
+    background-color: rgba(0, 0, 255, 0.253);
     font-size: 1.4em;
-}
-
-nav {
-    background-color: rgba(127, 255, 212, 0.349);
-    display: block;
-    text-align: center;
-    padding: 15px;
-    font-size: 1.2em;
-    padding: 10px;
-}
-
-nav a {
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: rgba(0, 153, 255, 0.11);
-    border-radius: 30px;
-    text-decoration: none;
-    color: rgba(47, 0, 255, 0.568);
-}
-
-nav a:hover {
-    background-color: rgba(42, 165, 89, 0.301);
-    transition: 1.4s;
-    color: rgb(42, 165, 73);
 }
 
 main {
@@ -53,7 +29,7 @@ main {
 footer {
     padding: 30px;
     
-    background-color: #007bff;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.61), transparent);
     color: white;
 
 }
@@ -127,44 +103,6 @@ footer > a {
 
 /**/
 
-.footer {
-    background-color: #007bff; /* Cor azul */
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
 
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer h2 {
-    margin-top: 0;
-    font-size: 24px;
-}
-
-footer > .contact-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0 0;
-}
-
-footer > .contact-list li {
-    margin: 10px 0;
-}
-
-footer > .contact-list li strong {
-    display: inline-block;
-    width: 100px;
-    font-weight: bold;
-}
-
-footer > .contact-list li {
-    font-size: 16px;
-}
 
 
