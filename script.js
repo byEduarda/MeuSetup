@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuToggle.addEventListener('click', function() {
         menu.classList.toggle('show');
     });
-});
+}); 
 
 
 function redirectToLinkpm() {
