@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function redirectToLinkpm() {
     var linkpm = "https://pt.aliexpress.com/item/1005005980078919.html"
     
-    document.location.href = linkpm
+    document.location.href = linkpm 
 }
 
 function redirectToLinkg() {
