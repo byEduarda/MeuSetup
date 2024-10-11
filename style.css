@@ -1,13 +1,13 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 
 * {
-    margin: 0px;
-    font-size: 14px;
+    margin: 0px;  
+    font-size: 14px;  
 }
 
 header {
     text-align: center;
-   background-color: rgba(0, 0, 255, 0.253);
+   background-color: rgba(0, 0, 255, 0.26);
     font-size: 1.3em;
 }
 
